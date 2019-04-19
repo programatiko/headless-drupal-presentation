@@ -1,0 +1,1 @@
+## Benefits of a decoupled Drupal site

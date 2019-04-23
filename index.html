@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/theme/custom.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/monokai.css">
@@ -31,11 +31,29 @@
 
 			<section data-markdown="markdown/01-start.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15"
-				data-background-image="https://source.unsplash.com/WiCvC9u7OpE">
+				data-background-image="images/james-orr-1397832-unsplash.jpg" data-background-opacity="0.4">
 			</section>
 
-			<section data-markdown="markdown/02-hello.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+			<!-- <section data-markdown="markdown/02-hello.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section> -->
+
+			<section>
+				<div style="float:left;width:50%">
+					<img src='images/spasbo.jpg' alt='Steven' style="width:110px;border-radius: 50%;">
+					<h5>Steven Spasbo</h5>
+					<small>Software Engineer.<br>
+						Community, Content & Localization.<br>
+						Workday, Inc.</small>
+				</div>
+				<div style="float:right;width: 50%;">
+					<img src='images/dk.jpeg' alt='DK' style="width:110px;border-radius: 50%;">
+					<h5>David Kontorovsky</h5>
+					<small>Software Engineer.<br>
+						Community, Content & Localization.<br>
+						Workday, Inc.<br>
+						<a href="https://twitter.com/programatiko">@programatiko</a></small>
+				</div>
 			</section>
 
 			<section data-markdown="markdown/03-contents.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
@@ -58,16 +76,133 @@
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
 
-			<section data-markdown="markdown/08-who-jumped.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+			<section data-markdown="markdown/08-showcase.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
 			</section>
 
+			<!-- decoupled sites showcase -->
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Imagine Canada Grant Connect</p>
+					<p><strong>Technology:</strong> Contenta, React and Material UI. Use case presented at Decoupled Drupal
+						Days 2018.</p>
+					<p>Case study: <a href="https://bit.ly/2UtONIp">https://bit.ly/2UtONIp</a></p>
+					<a href="http://www.imaginecanada.ca/" target="_blank">http://www.imaginecanada.ca/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_grantconnect.png' alt='Grant Connect'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Great Wolf Resorts</p>
+					<p><strong>Technology:</strong> CoffeeScript and Spine framework (3).</p>
+					<a href='https://www.greatwolf.com/'>https://www.greatwolf.com/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_great-wolf.png' alt='Great Wolf Resorts'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Edutopia</p>
+					<p><strong>Technology:</strong> Node and React (3).</p>
+					<a href="https://www.edutopia.org/" target="_blank">https://www.edutopia.org/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_edutopia.png' alt='Edutopia'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Weather.Com</p>
+					<p><strong>Technology:</strong> Angular (3).</p>
+					<a href='https://weather.com/'>https://weather.com/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_weather-com.png' alt='Weather.Com'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Heidelberg University</p>
+					<p><strong>Technology:</strong> A double-track frontend strategy with a decoupled frontend and a standard
+						Drupal
+						Theme (4).</p>
+					<p>Case study: <a href="https://www.amazee.com/case-studies/client-managed-cloud-hosting"
+							target="_blank">https://bit.ly/2IOElJe</a></p>
+					<a href='https://www.uni-heidelberg.de/'>https://www.uni-heidelberg.de/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_university-heidelberg.png' alt='Heidelberg University'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">The Tonight Show</p>
+					<p><strong>Technology:</strong> Node.js and Backbone (3).</p>
+					<a href='https://www.nbc.com/the-tonight-show'>https://www.nbc.com/the-tonight-show</a>
+				</div>
+				<div class="right">
+					<img src='images/site_tonight-show.png' alt='The Tonight Show'>
+				</div>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">Meredith Corporation</p>
+					<p><strong>Technology:</strong> Express-based Node.js, Varnish caching, JSON:API (5).</p>
+					<p>Case study: <a href="https://bit.ly/2UCg1N6" target="_blank">https://bit.ly/2UCg1N6</a></p>
+					<a href='https://www.meredith.com/'>https://www.meredith.com/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_meredith.png' alt='Meredith Corporation'>
+				</div>
+				<aside class="notes">
+					This one is a very interesting case. Meredith Corporation is a publishing corporation owning several
+					brands.
+					They kicked off a multi-tenant platform that allows them to support each brand, sharing features without
+					sacrificing customization.
+				</aside>
+			</section>
+
+			<section class="showcase">
+				<div class="left">
+					<p class="title">FamilyCircle.Com</p>
+					<p><strong>Technology:</strong> Express-based Node.js, Varnish caching, JSON:API (5).</p>
+					<a href='https://www.familycircle.com/'>https://www.familycircle.com/</a>
+				</div>
+				<div class="right">
+					<img src='images/site_family-circle.png' alt='FamilyCircle.Com'>
+				</div>
+			</section>
+			<!-- end decoupled sites showcase -->
+
 			<section data-markdown="markdown/09-unicorn.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
-				data-separator-notes="^Note:" data-charset="iso-8859-15">
+				data-separator-notes="^Note:" data-charset="iso-8859-15"
+				data-background-image="images/ines-pimentel-564023-unsplash.jpg" data-background-opacity="0.4">
 			</section>
 
 			<section data-markdown="markdown/10-show-me.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
 				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+
+			<section data-markdown="markdown/11-qa.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+
+			<section data-markdown="markdown/12-references.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+				data-separator-notes="^Note:" data-charset="iso-8859-15">
+			</section>
+
+			<section>
+				<img src='images/batman-wink.gif' alt='Batman' style="width:110px;border-radius: 50%;">
+				<h2>Thank you!</h2>
 			</section>
 
 		</div>

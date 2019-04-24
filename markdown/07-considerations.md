@@ -1,8 +1,8 @@
 ## Considerations
-- Team <!-- .element: class="fragment" -->
-- Data <!-- .element: class="fragment" -->
-- Hosting <!-- .element: class="fragment" -->
-- URL aliases <!-- .element: class="fragment" -->
-- Metadata <!-- .element: class="fragment" -->
-- Localization <!-- .element: class="fragment" -->
-- Authentication <!-- .element: class="fragment" -->
+
+- Editorial vs developer needs. <!-- .element: class="fragments" -->
+- Team organization becomes much more specialized. <!-- .element: class="fragment" -->
+- Frontend, backend, devops. <!-- .element: class="fragment" -->
+- Which drupal API’s are required for the project?. <!-- .element: class="fragment" -->
+- Best practices will need to be enforced. <!-- .element: class="fragment" -->
+- Writing good APIs is hard. <!-- .element: class="fragment" -->

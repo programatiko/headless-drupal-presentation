@@ -18,7 +18,7 @@ Viewed as whole they conform a monolithic entity where there is an interdependen
 ![Married](images/lego-married.jpg) <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note:
-Kind of... 
+Basically, what I'm trying to convey is that the backend and the front-end are married to each other...
 
 
 ### Decoupled architecture
@@ -29,6 +29,11 @@ Note:
 Decoupled architecture is another concept that I thought it would be nice to lay out here before we start comparing traditional vs decoupled CMS architecture.
 [read term]
 In our context, decoupled or headless Drupal basically means using Drupal as a content repository or, put another way, as a backend content management. Then we will have a front-end developed using a separate technology stack. For example: Vue.js, Angular, or React.
+
+
+<!-- .element: data-background-color="#fff" -->
+### Technologies
+![Technologies](images/technologies.jpeg)
 
 
 ### Traditional vs Decoupled CMS
@@ -47,10 +52,10 @@ On a headless CMS we see:
 - A way to store data
 - A CRUD user interface
 - A robust and flexible API
-As you can see there is no view component. The content is served by the API to whatever application we have designed for it: Mobile, Website, SPA, Native app, IoT, etc. The CMS becomes a content repository. The front-end is no longer tied to the back-end.
+As you can see there is no view component. The content is served by the API to whatever application we have designed for it: Mobile, Website, SPA, Native app, IoT, you name it. The CMS becomes a content repository. The front-end is no longer tied to the back-end.
 
 
-### Drupal's new flavors
+### Drupal's decouple approaches
 COUPLED <!-- .element: class="fragment" -->
 
 PROGRESSIVELY DECOUPLED <!-- .element: class="fragment" -->
@@ -60,33 +65,41 @@ FULLY DECOUPLED STATIC SITE <!-- .element: class="fragment" -->
 FULLY DECOUPLED APP <!-- .element: class="fragment" -->
 
 Note:
-- **Coupled**. Use Drupal as is without additional JavaScript (and as a content repository for other consumers).
-- **Progressively decoupled**. Use Drupal for initial rendering with JavaScript on top (and as a content repository for other consumers).
-- **Fully decoupled static site**. Use Drupal as a data source for a static site generator and, if needed, deploy to a JAMstack hosting platform.
-- **Fully decoupled app**. Use Drupal as a content repository accessed by other consumers (if JavaScript, use Node.js for server-side rendering).
+- **Coupled**. This is the Drupal you know. Fully coupled... backend and frontend married to each other (and as a content repository for other consumers).
+- **Progressively decoupled**. This is where Drupal is used for initial rendering with JavaScript on top (and as a content repository for other consumers).
+- **Fully decoupled static site**. Use Drupal as a data source for a static site generator and, if needed, deploy to a JAMstack hosting platform. If you've heard of Gatsby, that's probably the most popular example of this approach. Gatsby is a static site generator that uses React and GraphQL, and it has a plugin to use Drupal as its content repository.
+- **Fully decoupled app**. This is where Drupal is used as a content repository accessed by other consumers. This is where the backend and the frontend get a divorce, but it's an amicable one and they still talk and care for each other.
 
 
 ### Decoupled CMS options
 
 
 #### Drupal distros
+![Other distros](images/other-cms.png)
 - Reservoir
+- Contenta
+- Tide
+
+Note:
+So, aside from grabbing a vanilla Drupal distribution and decoupling it for our project, I just wanted to mention that these days there are many many options out there that allow us to separate concerns. Both Drupal and non-Drupal options, and the non-Drupal ones are popping up so rapidly that it's becoming hard to keep up.
+Here are some examples:
+**Drupal distros**
+- Reservoir: 
+  - is a Drupal-based content repository with all the necessary web service APIs needed to build decoupled front-end applications. 
+  - Developed by Acquia. 
+  - API-first distributions like Reservoir keep Drupal's workflows and editorial UI intact but emphasize Drupal's web service APIs to return control to your developers.
 - Contenta
 - Tide
 
 
 #### Non-Drupal headless CMS
+![Other CMS](images/other-cms-2.png)
 - Contentful
 - Prismic
 - GraphCMS
 - Sanity
 
 Note:
-So, aside from grabbing a vanilla Drupal distribution and decoupling it for our project, I just wanted to mention that these days there are many many options out there that allow us to separate concerns. Both Drupal and non-Drupal options, and the non-Drupal ones are popping up so rapidly that it's becoming hard to keep up.
-Here are some examples:
-**Drupal distros**
-- Reservoir
-- Contenta
 **Non-Drupal headless CMS**
 - Contentful
 - Prismic

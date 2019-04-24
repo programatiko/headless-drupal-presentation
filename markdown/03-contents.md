@@ -1,8 +1,8 @@
-## Contents
+<!-- ## Contents
 - Decoupled CMS
 - Benefits of a decoupled Drupal site
+- Wait, where's my unicorn? (a.k.a "cons")
 - Considerations
-- Where's my unicorn?
 - Should we decouple?
-- Who jumped on the bandwagon?
-- Show me the money!
+- Decoupled site showcase
+- Show me the money! -->

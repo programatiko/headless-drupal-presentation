@@ -28,6 +28,7 @@ Kind of...
 Note:
 Decoupled architecture is another concept that I thought it would be nice to lay out here before we start comparing traditional vs decoupled CMS architecture.
 [read term]
+In our context, decoupled or headless Drupal basically means using Drupal as a content repository or, put another way, as a backend content management. Then we will have a front-end developed using a separate technology stack. For example: Vue.js, Angular, or React.
 
 
 ### Traditional vs Decoupled CMS

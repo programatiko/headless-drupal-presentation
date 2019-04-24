@@ -13,6 +13,7 @@
 
 // Include theme-specific fonts
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,8 +23,8 @@ $mainColor: #fff;
 $headingColor: #fff;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Lato', Helvetica, sans-serif;
+$headingFont: 'Lato', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
@@ -52,6 +53,24 @@ section.has-light-background {
 // CUSTOM
 // ---------------------------------------------
 .reveal {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 900;
+	}
+	// .start {
+	// 	h2 {
+	// 		font-family: 'Rammetto One', cursive;
+	// 	}
+	// }
+	.contents {
+		img {
+			border-radius: 50%;
+			width: 35px;
+			border: dashed 1px #fff;
+			margin: 0;
+			vertical-align: middle;
+		}
+	}
 	.showcase {
 		a {
 			font-size: 14px;
@@ -61,6 +80,8 @@ section.has-light-background {
 			font-size: 16px;
 
 			&.title {
+				font-family: 'Lato', sans-serif;
+				font-weight: 900;
 				font-size: 24px;
 				text-transform: uppercase; 
 			}
@@ -75,5 +96,8 @@ section.has-light-background {
 			float:right;
 			width: 70%;
 		}
+	}
+	.references ol li {
+    font-size: 24px;
 	}
 }

@@ -1,4 +1,4 @@
-### David Kontorovsky
+<!-- ### David Kontorovsky
 
 Software Engineer.
 
@@ -16,4 +16,4 @@ Software Engineer.
 
 Community, Content & Localization.
 
-Workday, Inc.
+Workday, Inc. -->

@@ -14,7 +14,7 @@ const ArticlesView = () => (
           value: "false"
           operator: NOT_EQUAL
         }
-      }, limit:50) {
+      }, limit:5) {
         count
         entities {
           ... on NodeArticle {
